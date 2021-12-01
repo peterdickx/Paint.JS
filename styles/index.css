@@ -1,0 +1,43 @@
+body {
+    text-align: right;
+    color: white;
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+span {
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large
+}
+
+#hueSlider {
+    margin-top: 270px;
+    width: 205px;
+}
+
+#hueValue {
+    width: 208px;
+
+}
+
+input {
+    margin-top: 15px;
+    position: relative;
+    width: 100px;
+    font-size: x-large;
+}
+
+button {
+    position: relative;
+    font-size: x-large;
+    width: 208px;
+}

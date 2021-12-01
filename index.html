@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <script src="paint.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="styles/index.css" />
+</head>
+
+<body>
+    <canvas id="canvas"> </canvas>
+    <input id="hueSlider" type="range" value="0" min="0" max="360" />
+    <br />
+    <span>Hue:</span>
+    <input id="hueValue" type="number" value="0" min="0" max="360" />
+    <br />
+    <span>Saturation:</span>
+    <input id="satValue" type="number" value="100" min="0" max="100" />
+    <input id="satSlider" type="range" value="100" min="0" max="100" />
+    <br />
+    <span>Lightness:</span>
+    <input id="ligValue" type="number" value="50" min="0" max="100" />
+    <input id="ligSlider" type="range" value="50" min="0" max="100" />
+
+    <br />
+    <br />
+    <span>Brush Width:</span>
+    <input id="brushValue" type="number" value="10" min="1" max="100" />
+    <input id="brushSlider" type="range" value="10" min="1" max="100" />
+    <br />
+    <br />
+    <button id="clear">CLEAR CANVAS</button>
+</body>
+
+</html>
